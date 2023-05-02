@@ -23,4 +23,14 @@ public class ValidationController {
         LOGGER.info(validRequestDTO.toString());
         return ResponseEntity.status(HttpStatus.OK).body(validRequestDTO.toString());
     }
+
+//    {
+//        "age": 30,
+//        "booleanCheck": true,
+//        "count": 1,
+//        "description": "데이터1111",
+//        "email": "dja@dja.com",
+//        "name": "dja",
+//        "phoneNumber": "010-1212-1231"
+//    }
 }
