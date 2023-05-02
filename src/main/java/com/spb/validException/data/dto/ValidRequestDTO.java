@@ -24,6 +24,9 @@ public class ValidRequestDTO {
     int age;
 
     @Size(min = 0, max = 40)
+    String description;
+
+    @Positive
     int count;
 
     @AssertTrue
